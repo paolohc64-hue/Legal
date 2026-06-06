@@ -1,0 +1,55 @@
+## Rider
+.idea/
+*.sln.iml
+*.suo
+
+## Visual Studio Code
+.vscode/
+*.code-workspace
+
+## Visual Studio
+.vs/
+bin/
+obj/
+*.user
+*.userosscache
+*.sln.docstates
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+## npm
+node_modules/
+package-lock.json
+yarn.lock
+dist/
+build/
+
+## Environment
+.env
+.env.local
+.env.*.local
+appsettings.Development.json
+
+## OS
+.DS_Store
+Thumbs.db
+
+## Backup
+*.bak
+*.backup
+
+## Office temp files
+~$*
+*.tmp
+
+## Logs
+logs/
+*.log
+npm-debug.log*
+
+## Database
+*.db
+*.sqlite
